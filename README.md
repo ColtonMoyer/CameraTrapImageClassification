@@ -16,4 +16,4 @@ before running the shiny app. If a misclassification is made, the user can hit t
 input entered for that image. Warning messages after closing the app are related to this. The remaining script in this session compiles all the .csv files in
 that directory into a master file and cleans the data. 
 
-2b. The second part of the second script is designed to loop through subfolders of the parent directory and pull images of a target species from the classification.
+2b. The second part of the second script (line 208) is designed to loop through subfolders of the parent directory and pull images of a target species from the classification.
