@@ -5,8 +5,7 @@ to rename images so that there are not duplicates Example: "IMG_0001" that occur
 all have unique names they can be moved into mass folders and remain organized. After setting the input directory, the command will loop through each 
 camera folder "Stream_1", "Stream_2", "Stream_3" and label each CT image with "Stream_1_20250228_123456" or the Site_Date_Time. 
 
-1b. The second part of script allows for the automated relabeling of incorrect times. This allows for the user to put in the time displayed as well as the
-time the camera should show. The script calculates the difference, loops through each image in the directory, and deposits the completed images in the 
+1b. The second part of script (line 36) allows for the automated relabeling of incorrect times. This allows for the user to put in the time displayed as well as the time the camera should show. The script calculates the difference, loops through each image in the directory, and deposits the completed images in the 
 terminal folder. 
 
 2a. The second script *ImageClassificationShiny_AND_PullTargetSpp* is a shiny app that allows the users to set keyboard shortcuts for the manual classification 
