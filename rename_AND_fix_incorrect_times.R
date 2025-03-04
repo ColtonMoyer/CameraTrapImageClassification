@@ -1,4 +1,5 @@
-#Time trouble
+#Colton M Moyer
+#Rename and Fix Incorrect CT Image Times
 
 xfun::pkg_attach("lubridate","stringr","fs", "tidyr","readr", "here", "tidyr", "tibble", "ggplot2","tidyverse","camtrapR","exiftoolr","rgdal","magick")
 
